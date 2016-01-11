@@ -1,0 +1,46 @@
+<resources>
+    <!-- General strings -->
+    <string name="app_name">QuizApp</string>
+    <string name="admin_username">admin</string>
+    <string name="admin_password">password</string>
+    <string name="loading_string">Loading, Please wait&#8230;</string>
+
+    <!-- Login fragment strings -->
+    <string name="welcome_header">Welcome to QuizApp! Please login:</string>
+    <string name="incorrect_login">That username/password is incorrect. Please try again:</string>
+    <string name="username_label">Username:</string>
+    <string name="password_label">Password:</string>
+    <string name="action_settings">Settings</string>
+    <string name="login_button">Login</string>
+    <string name="logout_button">Logout</string>
+
+    <!-- Quiz master fragment strings -->
+    <string name="admin_welcome_header">Welcome to the QuizApp admin panel!</string>
+    <string name="add_question_header">Add a Question:</string>
+    <string name="add_question_title_label">Question Title:</string>
+    <string name="add_question_correct_answer_label">Correct Answer:</string>
+    <string name="add_question_incorrect_answer_label">Incorrect Answer:</string>
+    <string name="add_question_time_label">Time Allowed:</string>
+    <string name="create_question_button">Create Question</string>
+    <string name="delete_question_header">Delete a question by it\'s ID:</string>
+    <string name="delete_question_button">Delete Question</string>
+    <string name="create_user_header">Create a new user:</string>
+    <string name="create_user_button">Create User</string>
+    <string name="delete_user_header">Delete a user by their username:</string>
+    <string name="delete_user_button">Delete User</string>
+    <string name="clear_user_header">Clear a user\'s stats by their ID:</string>
+    <string name="clear_user_button">Clear Stats</string>
+    <string name="view_users_header">Users: (id,username,password)</string>
+    <string name="view_questions_header">Questions: (id,question,answer,incorrect1,incorrect2,incorrect3,time)</string>
+    <string name="view_stats_header">Stats: (id,uid,qid,score)</string>
+
+    <!-- Quiz taker fragment strings -->
+    <string name="user_welcome_header">Welcome to the QuizApp quiz taker!</string>
+    <string name="user_default_question">Question Loading&#8230;</string>
+    <string name="user_time_remaining_label">Seconds Remaining:</string>
+    <string name="user_default_time">30</string>
+    <string name="default_answer">Answer Loading&#8230;</string>
+    <string name="continue_button">Continue Quiz</string>
+    <string name="user_score_label">Your score:</string>
+    <string name="user_default_score">0/0</string>
+</resources>
